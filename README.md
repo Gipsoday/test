@@ -37,8 +37,9 @@
    - Путь: /repos/{owner}/{repo}/issues/{issue_number}/lock
    - Метод: `DELETE`
 
-В Запросах 'POST'  'PATCH' используется 
-Body {
+**В Запросах 'POST'  'PATCH' используется 
+Body**
+-{
   "title": "Issue",
   "body": "Something went wrong.",
   "labels": ["bug"],
